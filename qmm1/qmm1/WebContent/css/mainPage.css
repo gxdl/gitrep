@@ -1,0 +1,74 @@
+ body{
+	padding-top: 70px;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+.btn-file{
+	margin-top: 20px;
+	position: relative;
+	overflow: hidden;
+}
+
+.btn-file input[type=file]{
+	position: absolute;
+	top: 0;
+	right: 0;
+	min-width: 100%;
+	min-height: 100%;
+	font-size: 100px;
+	text-align: right;
+	opacity: 0;
+	outline: none;
+	background: white;
+	cursor: inherit;
+	display: block;
+}
+
+td,th{
+	text-align: center;
+}
+
+.bodycontainer{
+	height: 350px;
+	width: 100%;
+	margin: 0;
+	margin-top: -15px;
+	overflow-y: auto;
+}
+.table-scrollable{
+	margin: 0;
+	padding:0;
+}
+
+input{   
+    width: 278px;   
+    height: 18px;   
+    margin-bottom: 10px;   
+    outline: none;   
+    padding: 10px;   
+    font-size: 13px;   
+    color: blue;    
+    border-top: 1px solid #312E3D;   
+    border-left: 1px solid #312E3D;   
+    border-right: 1px solid #312E3D;   
+    border-bottom: 1px solid #56536A;   
+    border-radius: 4px;   
+    background-color: white;   
+}   
+
+.but{   
+    width: 200px;   
+    min-height: 40px;   
+    display: block;   
+    background-color: #4a77d4;   
+    border: 1px solid #3762bc;   
+    color: #fff;   
+    padding: 9px 14px;   
+    font-size: 15px;   
+    line-height: normal;   
+    border-radius: 5px;   
+    margin: 0;   
+}  
